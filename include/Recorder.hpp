@@ -1,8 +1,8 @@
 #pragma once
-#include <clip/clip.h>
 #include <leptonica/allheaders.h>
 #include <tesseract/baseapi.h>
 #include <Windows.h>
+#include <string>
 
 namespace Data
 {

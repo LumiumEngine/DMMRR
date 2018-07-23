@@ -162,7 +162,6 @@ bool Data::Recorder::writeMMRToFile(std::string text)
         auto date = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
 
         std::ifstream lastMMR;
-        std::ifstream lastMMR;
         lastMMR.open(std::filesystem::current_path().string() + "\\data\\lastMMR.txt", std::ifstream::in);
         if(lastMMR.is_open())
         {
